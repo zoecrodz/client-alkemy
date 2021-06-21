@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to-rigth, #614385, #516395);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.message{
+    background-color: white;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.529);;
+    position: fixed;
+    top: 0;
+    margin-left: 41%;
+    left: 0;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+@media (max-width: 750px){
+    .message{
+        margin-left: 15%;
+        margin-top: 50%
+    }
+}
+
+
+
